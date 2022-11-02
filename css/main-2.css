@@ -508,6 +508,9 @@ footer p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .video {
+    width: 100%;
+  }
   .p1 {
     height: 100vh;
   }
@@ -530,6 +533,16 @@ footer p a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .p4 img, .p4-item:nth-child(2) img {
+    left: 0;
+    width: 60%;
+  }
+  .p4-item:nth-child(2) img, .p4-item:nth-child(3) img {
+    width: 100%;
+  }
+  .p4-item:nth-child(3) img {
+    width: 90%;
   }
   .p4-item:first-child .item-p4-text, .p4-item:nth-child(3) .item-p4-text, .reverse-border {
     right: 0;
