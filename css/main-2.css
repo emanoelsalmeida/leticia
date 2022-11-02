@@ -136,7 +136,7 @@ h3 {
 }
 
 .p1 {
-  background: url(image/back/back-desktop.jpeg);
+  background: url(/image/back/back-desktop.jpeg);
 }
 
 .p1 h1 {
@@ -152,7 +152,7 @@ h3 {
 }
 
 .p2 {
-  background: url(image/back/back-color1.jpg);
+  background: url(/image/back/back-color1.jpg);
   width: 100%;
 }
 
@@ -165,7 +165,7 @@ h3 {
 }
 
 .p3 {
-  background: url(image/back/back-color1.jpg);
+  background: url(/image/back/back-color1.jpg);
 }
 
 .p3-box {
