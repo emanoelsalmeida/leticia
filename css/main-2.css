@@ -152,7 +152,7 @@ h3 {
 }
 
 .p2 {
-  background: url("/back-color1.jpg");
+  background: url("back-color1.jpg");
   width: 100%;
 }
 
@@ -165,7 +165,7 @@ h3 {
 }
 
 .p3 {
-  background: url("/back-color1.jpg");
+  background: url("back-color1.jpg");
 }
 
 .p3-box {

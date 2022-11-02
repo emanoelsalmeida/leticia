@@ -39,11 +39,11 @@ h3{font-size: 25px;}
 .p1 h1{text-align: center;}
 .border-back{position:absolute;width: 100%;height: 100%;margin: 1em; border: 1px solid #000;}
 
-.p2{background: url('/back-color1.jpg');width: 100%;}
+.p2{background: url('back-color1.jpg');width: 100%;}
 .p2 h2{margin-bottom: 2em;}
 .slide-p2{grid-gap: 1em;}
 
-.p3{background: url('/back-color1.jpg');}
+.p3{background: url('back-color1.jpg');}
 .p3-box{grid-template-columns: 1fr 1fr 1fr 1fr;align-items: start;margin-top: 2em;grid-gap: 2em;}
 .p3-item{margin-right: 1em;text-align: center;}
 .p3 img{width: 35%;display: block;margin: 0 auto;margin-bottom: 1em;}
