@@ -517,7 +517,7 @@ footer p a {
   .p3 {
     padding: 2em;
   }
-  .p3 h2 {
+  .p3 h2, .p2 h2, .modulosPage h2 {
     text-align: center;
   }
   .p3 img {
@@ -567,6 +567,9 @@ footer p a {
   }
   .p9, .p11-box {
     padding: 2em;
+  }
+  .p8 h4 {
+    font-size: 4em;
   }
 }
 
