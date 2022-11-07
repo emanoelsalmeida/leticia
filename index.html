@@ -46,12 +46,17 @@
   <p>
     CONHEÇA O MÉTODO SIMPLES E EFICAZ PARA ORGANIZAR A SUA CASA
   </p>
-  <div class="video">
-    <div class="border-back"></div>
-    <div class="iframe-container">
-      <iframe width="800" height="400" src="https://www.youtube.com/embed/q65i_D8wpzo" title="Curso online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>  
-  </div>
+  <div class="box-video">
+    <div class="video">
+        <div class="iframe-container" onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
+          <img src="image/thumbnail.jpg" style="cursor:pointer" />
+        </div>
+          <div id="thevideo" style="display:none">
+          <iframe width="800" height="400" src="https://www.youtube.com/embed/q65i_D8wpzo?autoplay=1" title="Curso online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          </div>
+    </div>
+  </div>  
   <div class="button">
     QUERO ME INSCREVER AGORA
   </div>
@@ -62,25 +67,29 @@
     PARA QUEM É O CURSO ORGANIZE SUA CASA
   </h2>
   <div class="p3-box grid">
-    <div class="p3-item">
+    <div class="p3-item" data-aos="fade-up"
+     data-aos-duration="3000">
       <img src="image/icon/window.png" alt="">
       <h3>
         Para quem quer curtir sua casa com mais tranquilidade.
       </h3>
     </div>
-    <div class="p3-item">
-      <img src="image/icon/shirt.png" alt="">
+    <div class="p3-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <img src="image/icon/shirt.png" alt="" >
       <h3>
         Tem dificuldades em deixar seu lar em ordem.
       </h3>
     </div>
-    <div class="p3-item">
+    <div class="p3-item" data-aos="fade-up"
+     data-aos-duration="3000">
       <img src="image/icon/shirt-2.png" alt="">
       <h3>
         Se sente sozinha com a desordem da casa.
       </h3>
     </div>
-    <div class="p3-item">
+    <div class="p3-item" data-aos="fade-up"
+     data-aos-duration="3000">
       <img src="image/icon/shirt-3.png" alt="">
       <h3>
         Para quem quer desfrutar de conforto, agilidade e praticidade nas tarefas do dia a dia.
@@ -509,6 +518,89 @@
           </svg>
         </div>
       </div>
+      <div class="container24">
+        <div class="image-container">
+          <img
+            class="image-before slider-image"
+          src="image/beforeAfter/A6.jpg"
+            alt="color photo"/>
+          <img
+            class="image-after slider-image"
+            src="image/beforeAfter/D6.jpg"
+            alt="black and white"
+          />
+        </div>
+        <!-- step="10" -->
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          aria-label="Percentage of before photo shown"
+          class="slider24"
+        />
+        <div class="slider-line" aria-hidden="true"></div>
+        <div class="slider-button" aria-hidden="true">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            viewBox="0 0 256 256"
+          >
+            <rect width="256" height="256" fill="none"></rect>
+            <line
+              x1="128"
+              y1="40"
+              x2="128"
+              y2="216"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <line
+              x1="96"
+              y1="128"
+              x2="16"
+              y2="128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <polyline
+              points="48 160 16 128 48 96"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></polyline>
+            <line
+              x1="160"
+              y1="128"
+              x2="240"
+              y2="128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <polyline
+              points="208 96 240 128 208 160"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></polyline>
+          </svg>
+        </div>
+      </div>
     </div>
 
 </div>
@@ -708,8 +800,9 @@
   </h2>
 
   <div class="p4-box grid">
-    <div class="p4-item">
-      <img src="image/mockup/celular-juliana.png" alt="">
+    <div class="p4-item" data-aos="fade-left"
+     data-aos-duration="3000">
+      <img src="image/mockup/device-juliana.jpg" alt="">
       <div class="item-p4-text">
         <h3>
           ESTILO E IMAGEM PESSOAL
@@ -719,8 +812,9 @@
         </p>
       </div>
     </div>
-    <div class="p4-item">
-      <img src="image/mockup/notebook-camila.png" alt="" class="img-reverse">
+    <div class="p4-item" data-aos="fade-right"
+     data-aos-duration="3000">
+      <img src="image/mockup/device-camila.jpg" alt="" class="img-reverse">
       <div class="item-p4-text reverse-border">
         <h3>
           PLANEJAMENTO E ORGANIZAÇÃO ALIMENTAR
@@ -730,8 +824,9 @@
         </p>
       </div>
     </div>
-    <div class="p4-item">
-      <img src="image/mockup/tablet-lorena.png" alt="">
+    <div class="p4-item" data-aos="fade-left"
+     data-aos-duration="3000">
+      <img src="image/mockup/device-lorena.jpg" alt="">
       <div class="item-p4-text">
         <h3>
           AUTOMAQUIAGEM
@@ -741,8 +836,47 @@
         </p>
       </div>
     </div>
+    <div class="p4-item" data-aos="fade-right"
+     data-aos-duration="3000">
+      <img src="image/ebook2.jpg" alt="" class="img-reverse">
+      <div class="item-p4-text reverse-border">
+        <h3>
+          1 EBOOK ORGANIZE SUA CASA
+        </h3>
+        <p>
+          <span>
+            R$ 67,00
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="p4-item" data-aos="fade-left"
+     data-aos-duration="3000" >
+      <img src="image/ebook1.jpg" alt="" class="img-reverse">
+      <div class="item-p4-text reverse-border">
+        <h3>
+          1 EBOOK
+          GUIA PRÁTICO DE DOBRAS
+        </h3>
+        <p>
+          <span>
+            R$ 67,00
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="p4-box-text">
+    <h3>
+      EBOOKS BEM MODERNO, COM DESIGNER EXCLUSIVO, FÁCIL LEITURA E COMPREENSÃO
+    </h3>
+    <a href="" class="button">
+      quero me inscrever agora
+    </a>
   </div>
 </div>
+
+
 
 <div class="p5">
   <div class="p5-box grid-two-columns">
@@ -766,6 +900,64 @@
   </div>
 </div>
 
+<div class="bonusPage display-column">
+  <h2>
+    LEMBRANDO QUE VOCÊ RECEBE:
+  </h2>
+  <div class="bonus-box grid">
+
+    <div class="bonus-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="border-back"></div>
+      <img src="image/card-bonus/card-bonus1.jpg" alt="">
+    </div>
+    <div class="bonus-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="border-back"></div>
+      <img src="image/card-bonus/card-bonus-2.jpg" alt="">
+    </div>
+    <div class="bonus-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="border-back"></div>
+      <img src="image/card-bonus/card-bonus-3.jpg" alt="">
+    </div>
+
+  </div>
+  <h3>
+    3 BÔNUS EXCLUSIVO
+  </h3>
+  <div class="bonus-box grid">
+
+    <div class="bonus-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="border-back"></div>
+      <img src="image/card-bonus/card-bonus-4.jpg" alt="">
+    </div>
+    <div class="bonus-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="border-back"></div>
+      <img src="image/card-bonus/card-bonus-5.jpg" alt="">
+    </div>
+    <div class="bonus-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="border-back"></div>
+      <img src="image/card-bonus/card-bonus-6.jpg" alt="">
+    </div>
+
+  </div>
+  <h3>
+    E-BOOKS
+  </h3>
+  <div class="bonusBx display">
+    <img src="image/ebook3.jpg" alt=""data-aos="fade-right"
+    data-aos-duration="3000">
+    <img src="image/book4.jpg" alt="" data-aos="fade-left"
+    data-aos-duration="3000">
+  </div>
+
+</div>
+
+<!-- 
 <div class="p6">
   <h2>
     LEMBRANDO QUE VOCÊ RECEBE:
@@ -804,6 +996,78 @@
       </ul>
     </div>
   </div>
+</div> -->
+
+<div class="p10">
+
+  <div class="p10-box grid-two-columns">
+    <div class="p10-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="p10-number">
+     <h3>
+      1
+     </h3>
+      </div>
+      <div class="p10-text">
+        ACESSO VITALÍCIO, PODENDO REVER O CONTEÚDO SEMPRE QUE DESEJAR.
+      </div>
+    </div>
+    <div class="p10-item" data-aos="fade-up"
+     data-aos-duration="3000" >
+      <div class="p10-number">
+     <h3>
+      2
+     </h3>
+      </div>
+      <div class="p10-text">
+        TODO O CURSO É ONLINE E VOCÊ PODE VER NA HORA QUE QUISER, NO CONFORTO DA SUA CASA.
+      </div>
+    </div>
+    <div class="p10-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="p10-number">
+     <h3>
+      3
+     </h3>
+      </div>
+      <div class="p10-text">
+        ACESSO IMEDIATO DO CONTEÚDO.
+      </div>
+    </div>
+    <div class="p10-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="p10-number">
+     <h3>
+      4
+     </h3>
+      </div>
+      <div class="p10-text">
+        AS AULAS SÃO GRAVADAS, PODENDO SER ASSISTISTAS EM QUALQUER DISPOSITIVO, COMPUTADOR, NOTEBOOK, CELULAR OU TABLET.
+      </div>
+    </div>
+    <div class="p10-item" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="p10-number">
+     <h3>
+      5
+     </h3>
+      </div>
+      <div class="p10-text">
+        CADA AULA NA PLATAFORMA, TEM UM ESPAÇO RESERVADO PARA VOCÊ FAZER PERGUNTAS E TIRAR SUAS DÚVIDAS.
+    </div>
+  </div>
+  <div class="p10-item" data-aos="fade-up"
+     data-aos-duration="3000">
+    <div class="p10-number">
+   <h3>
+    6
+   </h3>
+    </div>
+    <div class="p10-text">
+      O CURSO SEMPRE SERÁ ATUALIZADO CONFORME A TENDÊNCIA DO MERCADO.
+    </div>
+  </div>
+</div>
 </div>
 
 <div class="p8 display-column">
@@ -833,7 +1097,7 @@ ORGANIZE SUA CASA
 </div>
 
 <div class="p9">
-  <div class="p9-box grid-two-columns">
+  <div class="p9-box display">
     <div class="p9-item">
       <img src="image/garantia-7-dias.jpg" alt="">
     </div>
@@ -943,6 +1207,7 @@ ORGANIZE SUA CASA
 <script>
   AOS.init();
 </script>
+
 
 
   <script type="text/javascript">
