@@ -16,6 +16,10 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <link href="/vivify/vivify.min.css" rel="stylesheet" type="text/css"/>
+
   <!--
         slidershow
     -->
@@ -48,7 +52,7 @@
   </p>
   <div class="box-video">
     <div class="video">
-        <div class="iframe-container" onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
+        <div class="iframe-container" onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'" >
           <img src="image/thumbnail.jpeg" style="cursor:pointer" />
         </div>
           <div id="thevideo" style="display:none">
@@ -58,7 +62,7 @@
           </div>
     </div>  
   </div>
-  <div class="button">
+  <div class="button vivify pulsate duration-1000 infinite">
     QUERO ME INSCREVER AGORA
   </div>
 
@@ -623,7 +627,7 @@
               </div>
               <div class="content">
                 <p>
-                  Apresentação, introdução do tema
+                  apresentação, introdução do tema
                  </p>  
               </div>
           </div>
@@ -810,6 +814,9 @@
         <h3>
           ESTILO E IMAGEM PESSOAL
         </h3>
+        <h5>
+          Saiba qual o poder da aparência e a importância da primeira impressão, numa vídeo aula bem didática, com atividade de auto conhecimento e  desenvolvimento.
+        </h5>
         <p>
           Juliana Meneguetti - Consultora de imagem e estilo
         </p>
@@ -822,6 +829,9 @@
         <h3>
           PLANEJAMENTO E ORGANIZAÇÃO ALIMENTAR
         </h3>
+        <h5>
+          Descubra como planejar e organizar um cardápio alimentar para sua família, de forma simples e prática. Receba lista de compras e modelo ilustrativo de cardápio.
+        </h5>
         <p>
           Camila Bataglini - Nutricionista
         </p>
@@ -834,6 +844,9 @@
         <h3>
           AUTOMAQUIAGEM
         </h3>
+        <h5>
+          Aprenda a fazer uma maquiagem básica para seu dia a dia, com o passo a passo de cada produto da automaquiagem, desde a preparação da pele até o toque final do batom.
+        </h5>
         <p>
           Lorena Ravalli - Maquiadora profissional
         </p>
@@ -847,6 +860,15 @@
           1 EBOOK ORGANIZE SUA CASA
         </h3>
         <p>
+          <h5>
+            Receba um material bem didático e explicativo de todo o conceito de organização, com os primeiros passos de como organizar cada ambiente da casa, com dicas fáceis de aprender e aplicar. 
+
+          </h5>
+          <h5>
+            Com imagens e exemplos para se inspirar e organizar a sua casa.
+
+          </h5>
+          <p>
           <span>
             R$ 67,00
           </span>
@@ -857,10 +879,13 @@
      data-aos-duration="3000" >
       <img src="image/ebook1.jpg" alt="" class="img-reverse">
       <div class="item-p4-text reverse-border">
-        <h3>
+        <h3 class="grid-row-change">
           1 EBOOK
           GUIA PRÁTICO DE DOBRAS
         </h3>
+        <h5>
+          Guia ilustrativo com mais de 15 tipos de dobras de roupas, com o passo a passo de como dobrar cada uma, de maneira fácil de aprender e já aplicar na sua casa.
+        </h5>
         <p>
           <span>
             R$ 67,00
@@ -873,7 +898,7 @@
     <h3>
       EBOOKS BEM MODERNO, COM DESIGNER EXCLUSIVO, FÁCIL LEITURA E COMPREENSÃO
     </h3>
-    <a href="" class="button">
+    <a href="" class="button vivify pulsate duration-1000 infinite">
       quero me inscrever agora
     </a>
   </div>
@@ -1076,9 +1101,12 @@
 <div class="p8 display-column">
   <h2>
     CURSO ONLINE
-ORGANIZE SUA CASA
+    <br>
+    <span>
+      ORGANIZE SUA CASA
+    </span>
   </h2>
-  <img src="image/mockup/devices.jpg" alt="">
+  <img src="image/mockup/devices.jpeg" alt="">
 <div class="p8-box">
   
 <div class="p8-item">
@@ -1091,7 +1119,7 @@ ORGANIZE SUA CASA
   <h5>
     OU 297,00 Á VISTA
   </h5>
-  <a href="#" class="button">
+  <a href="#" class="button vivify pulsate duration-1000 infinite">
     compre agora
   </a>
 </div>
@@ -1215,12 +1243,13 @@ ORGANIZE SUA CASA
 
   <script type="text/javascript">
  $('.slide').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
   autoplay:false,
   slidesToShow: 3,
   slidesToScroll: 1,
+  autoplay:true,
   responsive: [
     {
       breakpoint: 1024,
@@ -1232,17 +1261,19 @@ ORGANIZE SUA CASA
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 900,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows:false
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows:false
       }
     }
     // You can unslick at a given breakpoint now by adding:
