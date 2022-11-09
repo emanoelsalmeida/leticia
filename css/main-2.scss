@@ -212,8 +212,8 @@ h3{font-size: 22px;}
 
 .p10-box{grid-template-columns:100%}
 .p10-item{display: grid;grid-template-columns: 20% 80%;margin: 1em;}
-.p10-text p, .p10-text:nth-child(3) p, .text-align-right{text-align: left;margin: 0;margin-left: 1em;font-size: 1em;}
-.p10 h3{line-height: .8em;text-align: left;margin-right: 2em;font-size: 5em;}
+.p10-text p, .p10-text:nth-child(3) p, .text-align-right{text-align: left;margin: 0;margin-left: 1em;font-size: .8em;}
+.p10 h3{line-height: .8em;text-align: left;margin-right: 1em;font-size: 5em;}
 .p10 h3 span{display: none;}
 
 
