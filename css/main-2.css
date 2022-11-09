@@ -347,6 +347,10 @@ h3 {
   margin: 0;
 }
 
+.p4 .accordion .contentBx.active .content {
+  height: auto;
+}
+
 .p4 .accordion .contentBx .label {
   font-style: italic;
 }

@@ -81,6 +81,7 @@ h3{font-size: 25px;}
 .p4 .accordion{width: 70%;display: inline-block;}
 .p4 .accordion .contentBx .label, .accordion .contentBx, .accordion .contentBx{width: 100%;margin: 0;}
 .accordion .contentBx{margin: 0;}
+.p4 .accordion .contentBx.active .content{height: auto;}
 .p4 .accordion .contentBx .label{font-style: italic;}
 .p4 .accordion p{font-size: 1em;}
 
