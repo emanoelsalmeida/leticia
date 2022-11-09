@@ -638,6 +638,9 @@ footer p a {
     padding: 1em 2em;
     text-align: center;
   }
+  .p1 h1 {
+    font-size: 1.7em;
+  }
   .p2 .container, .p2 .container20, .p2 .container21, .p2 .container22, .p2 .container23, .p2 .container24 {
     width: 80%;
     display: block;
