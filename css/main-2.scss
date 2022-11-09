@@ -173,6 +173,7 @@ h3{font-size: 22px;}
 .p3 img{width: 20%;}
 
 .p4 h3{font-size: 1em;}
+.p4 h5{font-weight: 300;font-size: 1em;padding: .5em;}
 
 .p4-item, .bonusBx{flex-direction: column;text-align: left;padding:2em}
 .p4-box-text{flex-direction: column;}
@@ -184,7 +185,7 @@ h3{font-size: 22px;}
 .p4 .accordion .contentBx.active .content{height: 150px;overflow: scroll;scrollbar-color: $color1;}
 .p4 .accordion .contentBx .content{background-color: $color1;color:#fff;font-weight: 300;}
 .p4 .accordion{width: 90%;}
-.p4 h5{font-weight: 300;font-size: 1em;padding: .5em;}
+
 
 .p4-item:nth-child(4){display: grid;}
 
@@ -213,7 +214,7 @@ h3{font-size: 22px;}
 .p10-box{grid-template-columns:100%}
 .p10-item{display: grid;grid-template-columns: 20% 80%;margin: 1em;}
 .p10-text p, .p10-text:nth-child(3) p, .text-align-right{text-align: left;margin: 0;margin-left: 1em;font-size: .8em;}
-.p10 h3{line-height: .8em;text-align: left;margin-right: 1em;font-size: 5em;}
+.p10 h3{line-height: .8em;text-align: left;margin-right: 0em;font-size: 4em;}
 .p10 h3 span{display: none;}
 
 

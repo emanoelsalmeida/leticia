@@ -658,6 +658,11 @@ footer p a {
   .p4 h3 {
     font-size: 1em;
   }
+  .p4 h5 {
+    font-weight: 300;
+    font-size: 1em;
+    padding: .5em;
+  }
   .p4-item, .bonusBx {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -699,11 +704,6 @@ footer p a {
   }
   .p4 .accordion {
     width: 90%;
-  }
-  .p4 h5 {
-    font-weight: 300;
-    font-size: 1em;
-    padding: .5em;
   }
   .p4-item:nth-child(4) {
     display: -ms-grid;
@@ -784,8 +784,8 @@ footer p a {
   .p10 h3 {
     line-height: .8em;
     text-align: left;
-    margin-right: 1em;
-    font-size: 5em;
+    margin-right: 0em;
+    font-size: 4em;
   }
   .p10 h3 span {
     display: none;
