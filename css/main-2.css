@@ -468,18 +468,27 @@ h3 {
 }
 
 .p10-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 80%;
+      grid-template-columns: 10% 80%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 2em;
 }
 
 .p10 h3 {
   font-size: 6em;
-  margin-right: .5em;
   color: #66101c;
+  text-align: left;
+  margin-right: 2em;
+  line-height: 10px;
+}
+
+.p10 p {
+  margin-left: 1em;
+  margin-top: 0;
 }
 
 .p11-box {
@@ -744,16 +753,29 @@ footer p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .p10-text p {
+  .p10-box {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .p10-item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+    margin: 1em;
+  }
+  .p10-text p, .p10-text:nth-child(3) p, .text-align-right {
     text-align: left;
     margin: 0;
   }
   .p10 h3 {
     line-height: .8em;
-  }
-  .p10 h3 {
-    margin-right: 0.2em;
+    text-align: right;
+    margin-right: 1em;
     font-size: 7em;
+  }
+  .p10 h3 span {
+    display: none;
   }
 }
 
