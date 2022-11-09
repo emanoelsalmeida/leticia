@@ -18,7 +18,7 @@ $padding: 4em 12em;
 body{font-size: 100%;overflow-x: hidden;}
 
 
-p{color: #000;margin-top: 1em;font-weight: 300;font-size: 20px;}
+p{color: #000;margin-top: 1em;font-weight: 300;font-size: 1.2em;}
 h2,h1{font-size: 2.5em;}
 h3{font-size: 25px;}
 
@@ -78,6 +78,12 @@ h3{font-size: 25px;}
 .p4 p span{text-decoration: line-through;}
 .p4 h5{font-size: 1.2em;margin-top: 1em;font-weight: 400;}
 
+.p4 .accordion{width: 70%;display: inline-block;}
+.p4 .accordion .contentBx .label, .accordion .contentBx, .accordion .contentBx{width: 100%;margin: 0;}
+.accordion .contentBx{margin: 0;}
+.p4 .accordion .contentBx .label{font-style: italic;}
+.p4 .accordion p{font-size: 1em;}
+
 .p4-item:nth-child(4) img, .p4-item:nth-child(5) img{width: 40%;}
 
 .bonusPage{background: $color1;color: #fff;padding: $padding;}
@@ -113,7 +119,7 @@ h3{font-size: 25px;}
 .p11-box{background-color: $color2;}
 
 .accordion{max-width: 900px;display: block;margin: 0 auto;}
-.accordion .contentBx{position: relative;margin: 10px 20px;}
+.accordion .contentBx{position: relative;margin: 0;}
 .accordion .contentBx .label{position: relative;padding: 20px;
  color: #000;cursor: pointer;font-weight: 700;margin: .5em 0;border-bottom: 1px solid #000;font-size: 1.2em;}
 .accordion .contentBx .label::before{content: '+';position: relative;top:50%;
@@ -121,7 +127,7 @@ h3{font-size: 25px;}
 .accordion .contentBx.active .label::before{content: '-';}
 .accordion .contentBx .content{position: relative; height: 0;overflow: hidden;transition: 0.5s;overflow: auto;color: #000;padding-top: 0;}
 .accordion .contentBx.active .content{height: 150px;padding: 10px;}
-.accordion p{margin: .5em 0;color: #000;}
+.accordion p{margin: .5em 0;color: #000;font-size: 1em;}
 
 
 footer{background:#fff;}
@@ -169,6 +175,9 @@ h3{font-size: 22px;}
 .p4-item:nth-child(4) img, .p4-item:nth-child(5) img, .bonusBx img{width: 80%;display: block;margin: 0 auto;}
 
 .p4-item:nth-child(5), .p4-item:nth-child(4){display: flex;flex-direction: column-reverse;}
+
+.p4 .accordion .contentBx.active .content{height: auto;}
+.p4 .accordion{width: 90%;}
 
 .p5-item:first-child, .p11-item{grid-row: 2;}
 .p5-item img{width: 100%;display: block;margin: 0 auto;}

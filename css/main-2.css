@@ -19,7 +19,7 @@ p {
   color: #000;
   margin-top: 1em;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
 h2, h1 {
@@ -333,6 +333,28 @@ h3 {
   font-weight: 400;
 }
 
+.p4 .accordion {
+  width: 70%;
+  display: inline-block;
+}
+
+.p4 .accordion .contentBx .label, .accordion .contentBx, .accordion .contentBx {
+  width: 100%;
+  margin: 0;
+}
+
+.accordion .contentBx {
+  margin: 0;
+}
+
+.p4 .accordion .contentBx .label {
+  font-style: italic;
+}
+
+.p4 .accordion p {
+  font-size: 1em;
+}
+
 .p4-item:nth-child(4) img, .p4-item:nth-child(5) img {
   width: 40%;
 }
@@ -468,7 +490,7 @@ h3 {
 
 .accordion .contentBx {
   position: relative;
-  margin: 10px 20px;
+  margin: 0;
 }
 
 .accordion .contentBx .label {
@@ -512,6 +534,7 @@ h3 {
 .accordion p {
   margin: .5em 0;
   color: #000;
+  font-size: 1em;
 }
 
 footer {
@@ -646,6 +669,12 @@ footer p a {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+  .p4 .accordion .contentBx.active .content {
+    height: auto;
+  }
+  .p4 .accordion {
+    width: 90%;
   }
   .p5-item:first-child, .p11-item {
     -ms-grid-row: 2;
