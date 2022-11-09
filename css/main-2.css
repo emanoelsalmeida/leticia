@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
@@ -140,6 +139,11 @@ h3 {
 .background {
   background-size: cover;
   background-position: center;
+}
+
+.button {
+  -webkit-box-shadow: 0 0 1em #2a2a2a;
+          box-shadow: 0 0 1em #2a2a2a;
 }
 
 .p1 {
@@ -604,10 +608,13 @@ footer p a {
     font-size: 25px;
   }
   p, a {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   h3 {
     font-size: 22px;
+  }
+  .button {
+    font-size: 1em;
   }
   .grid, .grid-two-columns {
     -ms-grid-columns: 1fr;
@@ -650,7 +657,7 @@ footer p a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
+    text-align: left;
     padding: 2em;
   }
   .p4-box-text {
@@ -664,30 +671,37 @@ footer p a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
   .p4 p span, .p4 p:nth-child(2) span {
-    text-align: center;
+    text-align: left;
   }
   .p4-item:nth-child(4) img, .p4-item:nth-child(5) img, .bonusBx img {
     width: 80%;
     display: block;
     margin: 0 auto;
   }
-  .p4-item:nth-child(5), .p4-item:nth-child(4) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
   .p4 .accordion .contentBx.active .content {
-    height: auto;
+    height: 150px;
+    overflow: scroll;
+    scrollbar-color: #66101c;
+  }
+  .p4 .accordion .contentBx .content {
+    background-color: #66101c;
+    color: #fff;
+    font-weight: 300;
   }
   .p4 .accordion {
     width: 90%;
+  }
+  .p4 h5 {
+    font-weight: 300;
+    font-size: 1em;
+    padding: .5em;
+  }
+  .p4-item:nth-child(4) {
+    display: -ms-grid;
+    display: grid;
   }
   .p5-item:first-child, .p11-item {
     -ms-grid-row: 2;
@@ -698,11 +712,14 @@ footer p a {
     display: block;
     margin: 0 auto;
   }
+  .bonusPage h3, .bonusBx h3, .bonusPage h2 {
+    text-align: center;
+  }
   .p9, .p11-box, .p10 {
     padding: 2em;
   }
   .p8 h2 {
-    font-size: 2em;
+    font-size: 1.7em;
   }
   .p8 h4 {
     font-size: 4em;
@@ -734,24 +751,12 @@ footer p a {
     right: -30px;
     left: auto;
   }
-  .slick-prev:before {
-    content: '←';
-  }
-  [dir='rtl'] .slick-prev:before {
-    content: '→';
-  }
   .slick-next {
     right: -10px;
   }
   [dir='rtl'] .slick-next {
     right: auto;
     left: -10px;
-  }
-  .p9-box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .p10-box {
     -ms-grid-columns: 100%;
@@ -767,10 +772,11 @@ footer p a {
   .p10-text p, .p10-text:nth-child(3) p, .text-align-right {
     text-align: left;
     margin: 0;
+    margin-left: 1em;
   }
   .p10 h3 {
     line-height: .8em;
-    text-align: right;
+    text-align: left;
     margin-right: 1em;
     font-size: 7em;
   }
