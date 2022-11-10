@@ -85,14 +85,16 @@ h3{font-size: 25px;}
 .p4 .accordion .contentBx .label{font-style: italic;}
 .p4 .accordion p{font-size: 1em;}
 
-.p4-item:nth-child(4) img, .p4-item:nth-child(5) img{width: 40%;}
+
+.p4-item:nth-child(4) img, .p4-item:nth-child(5) img{width: 30%;}
 
 .bonusPage{background: $color1;color: #fff;padding: $padding;}
 .bonus-item{margin: 1em;position: relative;z-index: 100000000000;}
 .bonus-item .border-back{z-index: -1;border-color: #fff;}
 .bonusPage h3{margin: 1em 0;font-size: 2.5em;}
 .bonusBx{padding: 0;}
-.bonusBx img{width: 50%;}
+.bonusBx img{width: 100%;}
+.bonusBx img:first-child{width: 90%;}
 
 .p5, .p6,.p9{background-color: $color1;color: #fff;}
 .p5 p, .p6 p, .p9 p{color: #fff;}
@@ -156,7 +158,7 @@ p,a{font-size: 1em;}
 h3{font-size: 22px;}
 
 .button{font-size: 1em;}
-
+.desktop-none{display: block;}
 
 .grid, .grid-two-columns{grid-template-columns: 1fr;grid-gap: 2em;}
 .grid-two-columns, .grid-two-columns{grid-template-columns: 1fr;}
@@ -185,7 +187,7 @@ h3{font-size: 22px;}
 .p4 .accordion .contentBx.active .content{height: 150px;overflow: scroll;scrollbar-color: $color1;}
 .p4 .accordion .contentBx .content{background-color: $color1;color:#fff;font-weight: 300;}
 .p4 .accordion{width: 90%;}
-
+.p4-item:nth-child(4) img, .p4-item:nth-child(5) img{width: 100%;}
 
 .p4-item:nth-child(4){display: grid;}
 
@@ -193,6 +195,7 @@ h3{font-size: 22px;}
 .p5-item img{width: 100%;display: block;margin: 0 auto;}
 
 .bonusPage h3, .bonusBx h3, .bonusPage h2{text-align: center;}
+.bonusBx img:first-child{width: 100%;}
 
 .p9, .p11-box, .p10{padding: 2em;}
 

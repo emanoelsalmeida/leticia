@@ -364,7 +364,7 @@ h3 {
 }
 
 .p4-item:nth-child(4) img, .p4-item:nth-child(5) img {
-  width: 40%;
+  width: 30%;
 }
 
 .bonusPage {
@@ -394,7 +394,11 @@ h3 {
 }
 
 .bonusBx img {
-  width: 50%;
+  width: 100%;
+}
+
+.bonusBx img:first-child {
+  width: 90%;
 }
 
 .p5, .p6, .p9 {
@@ -616,6 +620,9 @@ footer p a {
   .button {
     font-size: 1em;
   }
+  .desktop-none {
+    display: block;
+  }
   .grid, .grid-two-columns {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -705,6 +712,9 @@ footer p a {
   .p4 .accordion {
     width: 90%;
   }
+  .p4-item:nth-child(4) img, .p4-item:nth-child(5) img {
+    width: 100%;
+  }
   .p4-item:nth-child(4) {
     display: -ms-grid;
     display: grid;
@@ -720,6 +730,9 @@ footer p a {
   }
   .bonusPage h3, .bonusBx h3, .bonusPage h2 {
     text-align: center;
+  }
+  .bonusBx img:first-child {
+    width: 100%;
   }
   .p9, .p11-box, .p10 {
     padding: 2em;
