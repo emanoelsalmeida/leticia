@@ -729,6 +729,9 @@ footer p a {
   .bonusPage h3, .bonusBx h3, .bonusPage h2 {
     text-align: center;
   }
+  .bonusBx img {
+    width: 100%;
+  }
   .bonusBx img:first-child {
     width: 80%;
   }
