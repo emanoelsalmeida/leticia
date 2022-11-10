@@ -730,7 +730,7 @@ footer p a {
     text-align: center;
   }
   .bonusBx img:first-child {
-    width: 100%;
+    width: 80%;
   }
   .p9, .p11-box, .p10 {
     padding: 2em;
@@ -794,7 +794,7 @@ footer p a {
   }
   .p10 h3 {
     line-height: .8em;
-    text-align: left;
+    text-align: center;
     margin-right: 0em;
     font-size: 4em;
   }
