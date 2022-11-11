@@ -213,6 +213,7 @@ h3 {
 
 .p2 h2 {
   margin-bottom: 2em;
+  text-align: center;
 }
 
 .slide-p2 {
@@ -248,6 +249,10 @@ h3 {
 .p3 h3 {
   font-size: 1em;
   font-weight: 400;
+}
+
+.p3.display-column.background h2 {
+  text-align: center;
 }
 
 .modulosPage {
@@ -713,11 +718,6 @@ footer p a {
   }
   .p4 h5 {
     padding: 0;
-  }
-  .p4 .accordion .contentBx.active .content {
-    overflow: scroll;
-    scrollbar-color: #66101c;
-    height: 150px;
   }
   .p4 .accordion .contentBx .content {
     font-weight: 300;

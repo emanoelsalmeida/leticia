@@ -51,7 +51,7 @@ h3{font-size: 25px;}
 .iframe-container iframe{ position: absolute;left: 0;top: 0; height: 100%;width: 100%;}
 
 .p2{background: $color2;width: 100%;}
-.p2 h2{margin-bottom: 2em;}
+.p2 h2{margin-bottom: 2em;text-align: center;}
 .slide-p2{grid-gap: 1em;}
 
 .p3{background: $color2}
@@ -59,6 +59,7 @@ h3{font-size: 25px;}
 .p3-item{margin-right: 1em;text-align: center;}
 .p3 img{width: 35%;display: block;margin: 0 auto;margin-bottom: 1em;}
 .p3 h3{font-size: 1em;font-weight: 400;}
+.p3.display-column.background h2{text-align: center;}
 
 .modulosPage{background-color: $color1;padding: $padding;color: #fff;}
 .modulosPage .accordion .contentBx{width: 100%;margin: 0;display: block;margin: 0 auto;color: #fff;}
@@ -192,7 +193,7 @@ h1, h2{text-align: center;}
 .p4-item:nth-child(4) img, .p4-item:nth-child(5) img, .bonusBx img{width: 80%;display: block;margin: 0 auto;}
 .p4 h5{padding: 0;}
 
-.p4 .accordion .contentBx.active .content{overflow: scroll;scrollbar-color: $color1;height: 150px;}
+
 .p4 .accordion .contentBx .content{font-weight: 300;padding: .5em 0;}
 .accordion .contentBx .label{font-size: 1em;padding: 1em 0;}
 .p4 .accordion{width: 100%;}
