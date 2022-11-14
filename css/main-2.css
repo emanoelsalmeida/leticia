@@ -375,6 +375,10 @@ h3 {
   width: 30%;
 }
 
+.item-p4-text {
+  margin-left: 3em;
+}
+
 .bonusPage {
   background: #66101c;
   color: #fff;
@@ -732,6 +736,9 @@ footer p a {
   }
   .p4 .accordion {
     width: 100%;
+  }
+  .item-p4-text {
+    margin-left: 0em;
   }
   .p4-item:nth-child(4) {
     display: -ms-grid;
