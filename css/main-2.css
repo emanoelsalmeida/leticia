@@ -570,6 +570,13 @@ h3 {
   font-size: 1em;
 }
 
+.whatsapp img {
+  width: 5em;
+  position: fixed;
+  bottom: 1em;
+  right: 2em;
+}
+
 footer {
   background: #fff;
 }
@@ -830,6 +837,12 @@ footer p a {
   }
   .p10 h3 span {
     display: none;
+  }
+  .whatsapp img {
+    width: 4em;
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
   }
 }
 
