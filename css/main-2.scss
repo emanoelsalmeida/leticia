@@ -173,6 +173,8 @@ h1, h2, h3{text-transform: lowercase;}
 .slide-item{margin: 0;}
 .modulosPage .accordion .contentBx{width: 90%;}
 
+.modulosPage .slide{grid-template-columns: 1fr;}
+
 .slick-next, .slick-prev{display: block;margin: 0 auto;}
 
 .slick-prev{ left: -30px}

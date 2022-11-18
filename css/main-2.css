@@ -806,6 +806,10 @@ footer p a {
   .modulosPage .accordion .contentBx {
     width: 90%;
   }
+  .modulosPage .slide {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
   .slick-next, .slick-prev {
     display: block;
     margin: 0 auto;
