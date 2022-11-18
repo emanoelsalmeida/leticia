@@ -284,6 +284,13 @@ h1, h2, h3 {
   color: #fff;
 }
 
+.modulosPage .slide {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
 .slick-prev:before, .slick-next:before {
   color: #fff;
 }
