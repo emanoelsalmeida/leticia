@@ -620,7 +620,7 @@ footer p a {
 
 @media screen and (max-width: 1500px) {
   .p1 {
-    background: url(image/back/back-laptop.webp);
+    background: url("back-laptop.webp");
   }
 }
 
