@@ -29,6 +29,11 @@ h3 {
   font-size: 25px;
 }
 
+h1, h2, h3 {
+  text-transform: capitalize;
+  text-transform: lowercase;
+}
+
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p11-box {
   padding: 4em 12em;
 }
@@ -147,7 +152,7 @@ h3 {
 }
 
 .p1 {
-  background: url("back-desktop.jpeg");
+  background: url("image/back/back-desktop.webp");
 }
 
 .p1 h1 {
@@ -615,7 +620,7 @@ footer p a {
 
 @media screen and (max-width: 1500px) {
   .p1 {
-    background: url("back-laptop.jpeg");
+    background: url("image/back/back-laptop.webp");
   }
 }
 
@@ -637,6 +642,9 @@ footer p a {
   }
   h1, h2 {
     text-align: center;
+  }
+  h1, h2, h3 {
+    text-transform: lowercase;
   }
   .button {
     font-size: 1em;

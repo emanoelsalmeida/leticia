@@ -7,28 +7,24 @@
     border-radius: 1rem;
     --position: 50%;
   }
-  
-  .image-container20 {
+    .image-container20 {
     max-width: 500px;
     max-height: 90vh;
     aspect-ratio: 1/1;
   }
-  
-  .slider-image20 {
+    .slider-image20 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: left;
   }
-  
-  .image-before20 {
+    .image-before20 {
     position: absolute;
     inset: 0;
     width: var(--position);
     filter: grayscale(100%)
   }
-  
-  .slider20 {
+    .slider20 {
     position: absolute;
     inset: 0;
     cursor: pointer;
@@ -36,13 +32,11 @@
     /* for Firefox */
     width: 100%;
     height: 100%;
-  }
-  
+  }  
   .slider20:focus-visible ~ .slider-button {
     outline: 5px solid black;
     outline-offset: 3px;
-  }
-  
+  }  
   .slider-line20 {
     position: absolute;
     inset: 0;
@@ -54,8 +48,7 @@
     transform: translateX(-50%);
     pointer-events: none;
   }
-  
-  .slider-button20{
+    .slider-button20{
     position: absolute;
     background-color: #fff;
     color: black;

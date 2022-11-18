@@ -8,28 +8,24 @@
     border-radius: 1rem;
     --position: 50%;
   }
-  
-  .image-container21 {
+    .image-container21 {
     max-width: 500px;
     max-height: 90vh;
     aspect-ratio: 1/1;
   }
-  
-  .slider-image21 {
+    .slider-image21 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: left;
   }
-  
-  .image-before21 {
+    .image-before21 {
     position: absolute;
     inset: 0;
     width: var(--position);
     filter: grayscale(100%)
   }
-  
-  .slider21{
+    .slider21{
     position: absolute;
     inset: 0;
     cursor: pointer;
@@ -38,13 +34,11 @@
     width: 100%;
     height: 100%;
   }
-  
-  .slider21:focus-visible ~ .slider-button {
+    .slider21:focus-visible ~ .slider-button {
     outline: 5px solid black;
     outline-offset: 3px;
   }
-    
-  .slider-line21 {
+      .slider-line21 {
     position: absolute;
     inset: 0;
     width: .2rem;
@@ -55,8 +49,7 @@
     transform: translateX(-50%);
     pointer-events: none;
   }
-  
-  .slider-button21 {
+    .slider-button21 {
     position: absolute;
     background-color: #fff;
     color: black;
