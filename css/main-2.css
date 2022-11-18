@@ -152,7 +152,7 @@ h1, h2, h3 {
 }
 
 .p1 {
-  background: url(back-desktop.webp);
+  background: url("back-desktop.jpeg");
 }
 
 .p1 h1 {
@@ -620,7 +620,7 @@ footer p a {
 
 @media screen and (max-width: 1500px) {
   .p1 {
-    background: url("back-laptop.webp");
+    background: url("back-laptop.jpeg");
   }
 }
 

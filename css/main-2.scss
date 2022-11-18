@@ -30,7 +30,7 @@ h1,h2,h3{text-transform: capitalize;text-transform: lowercase;}
 .line{width: 30%;height: 3px;background-color:  $color1;margin-top: 1em;}
 .background{background-size: cover;background-position: center;}
 .button{box-shadow: 0 0 1em rgb(42, 42, 42);}
-.p1{background: url(back-desktop.webp);}
+.p1{background: url('back-desktop.jpeg');}
 .p1 h1{text-align: center;}
 .box-video{text-align: center;display: flex; align-items: center;justify-content: center;}
 .box-video img{width: 100%;display: block;margin: 0 auto;}
@@ -114,7 +114,7 @@ footer p a{color: $color1; text-decoration: none;font-size: 1em;}
 .f-i{display: flex;justify-content: space-between;}
 .desktop-none{display: none;}
 @media screen and (max-width:1500px){
-    .p1{background: url('back-laptop.webp')}
+    .p1{background: url('back-laptop.jpeg')}
 }
 @media screen and (max-width:900px){
     $padding : 2em 1em;
