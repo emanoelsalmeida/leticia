@@ -152,7 +152,7 @@ h1, h2, h3 {
 }
 
 .p1 {
-  background: url("back-desktop.webp");
+  background: url(back-desktop.webp);
 }
 
 .p1 h1 {
