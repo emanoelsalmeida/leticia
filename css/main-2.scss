@@ -114,7 +114,7 @@ footer p a{color: $color1; text-decoration: none;font-size: 1em;}
 .f-i{display: flex;justify-content: space-between;}
 .desktop-none{display: none;}
 @media screen and (max-width:1500px){
-    .p1{background: url('image/back/back-laptop.webp')}
+    .p1{background: url(image/back/back-laptop.webp)}
 }
 @media screen and (max-width:900px){
     $padding : 2em 1em;
