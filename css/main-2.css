@@ -28,7 +28,7 @@ h3 {
 
 h1, h2, h3 {
   text-transform: capitalize;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p11-box {
@@ -280,13 +280,6 @@ h1, h2, h3 {
 
 .modulosPage .accordion p {
   color: #fff;
-}
-
-.modulosPage .slide {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -805,10 +798,6 @@ footer p a {
   }
   .modulosPage .accordion .contentBx {
     width: 90%;
-  }
-  .modulosPage .slide {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
   }
   .slick-next, .slick-prev {
     display: block;

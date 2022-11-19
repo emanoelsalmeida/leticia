@@ -13,7 +13,7 @@ body,html{font-size: 100%;overflow-x: hidden;}
 p{color: #000;margin-top: 1em;font-weight: 300;font-size: 1.2em;}
 h2,h1{font-size: 2.5em;}
 h3{font-size: 25px;}
-h1,h2,h3{text-transform: capitalize;text-transform: lowercase;}
+h1,h2,h3{text-transform: capitalize;text-transform: uppercase;}
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8,.p9, .p11-box{padding: $padding;}
 .display{display:flex;justify-content: center;align-items: center;padding: 4em 8em;}
 .box{display:flex;justify-content: center;align-items: center;}
@@ -48,7 +48,7 @@ h1,h2,h3{text-transform: capitalize;text-transform: lowercase;}
 .modulosPage .accordion .contentBx .label{margin: 0;color: #fff;border-color: #fff;}
 .modulosPage .accordion p{color: #fff;}
 
-.modulosPage .slide{display: grid;grid-template-columns: 1fr 1fr 1fr;}
+
 
 
 .slick-prev:before, .slick-next:before{color: #fff;}
@@ -173,7 +173,7 @@ h1, h2, h3{text-transform: lowercase;}
 .slide-item{margin: 0;}
 .modulosPage .accordion .contentBx{width: 90%;}
 
-.modulosPage .slide{grid-template-columns: 1fr;}
+
 
 .slick-next, .slick-prev{display: block;margin: 0 auto;}
 
