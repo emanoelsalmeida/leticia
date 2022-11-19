@@ -796,6 +796,10 @@ footer p a {
   .modulosPage .accordion .contentBx {
     width: 90%;
   }
+  .modulosPage .accordion .contentBx.active .content {
+    padding: 0px;
+    height: auto;
+  }
   .slick-next, .slick-prev {
     display: block;
     margin: 0 auto;
