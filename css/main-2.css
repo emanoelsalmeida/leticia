@@ -378,6 +378,17 @@ h1, h2, h3 {
   width: 30%;
 }
 
+.p4 h5 {
+  width: 100%;
+}
+
+.p4 .border-line {
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  margin: 1em 0;
+}
+
 .item-p4-text {
   margin-left: 3em;
 }
@@ -753,6 +764,12 @@ footer p a {
     display: -ms-grid;
     display: grid;
   }
+  .p4 .border-line {
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    margin: 1em 0;
+  }
   .p5-item:first-child, .p11-item {
     -ms-grid-row: 2;
     grid-row: 2;
@@ -796,9 +813,8 @@ footer p a {
   .modulosPage .accordion .contentBx {
     width: 90%;
   }
-  .modulosPage .accordion .contentBx.active .content {
-    padding: 0px;
-    height: auto;
+  .modulosPage .accordion p {
+    color: #fff;
   }
   .slick-next, .slick-prev {
     display: block;
