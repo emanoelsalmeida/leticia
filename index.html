@@ -45,6 +45,8 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="apple-touch-icon" sizes="57x57" href="favicon-2/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon-2/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon-2/apple-icon-72x72.png">
@@ -98,25 +100,29 @@
   </h2>
   <div class="p3-box grid">
     <div class="p3-item">
-      <img src="image/icon/window.png" loading="lazy" alt="janela">
+      <img src="image/icon/window.png" loading="lazy" alt="janela" data-aos="fade-up"
+      data-aos-duration="3000">
       <h3>
         Para quem quer curtir sua casa com mais tranquilidade.
       </h3>
     </div>
     <div class="p3-item">
-      <img src="image/icon/shirt.png" loading="lazy" alt="camisa">
+      <img src="image/icon/shirt.png" loading="lazy" alt="camisa" data-aos="fade-up"
+      data-aos-duration="3000">
       <h3>
         Tem dificuldades em deixar seu lar em ordem.
       </h3>
     </div>
     <div class="p3-item">
-      <img src="image/icon/shirt-2.png" loading="lazy" alt="avental">
+      <img src="image/icon/shirt-2.png" loading="lazy" alt="avental" data-aos="fade-up"
+      data-aos-duration="3000">
       <h3>
         Se sente sozinha com a desordem da casa.
       </h3>
     </div>
     <div class="p3-item">
-      <img src="image/icon/shirt-3.png" loading="lazy" alt="casa">
+      <img src="image/icon/shirt-3.png" loading="lazy" alt="casa" data-aos="fade-up"
+      data-aos-duration="3000">
       <h3>
         Para quem quer desfrutar de conforto, agilidade e praticidade nas tarefas do dia a dia.
       </h3>
@@ -826,8 +832,9 @@
   </h2>
 
   <div class="p4-box grid">
-    <div class="p4-item">
-      <img src="image/mockup/device-juliana.webp" loading="lazy" alt="notebook celular tablet">
+    <div class="p4-item" data-aos="fade-right"
+    data-aos-duration="3000">
+      <img src="image/mockup/device-juliana.webp" loading="lazy" alt="notebook celular tablet" >
       <div class="item-p4-text">
         <h3>
           ESTILO E IMAGEM PESSOAL
@@ -850,7 +857,8 @@
        </div>
       </div>
     </div>
-    <div class="p4-item">
+    <div class="p4-item" data-aos="fade-left"
+    data-aos-duration="3000">
       <img src="image/mockup/device-camila.webp" loading="lazy" alt="tablet celular" class="img-reverse">
       <div class="item-p4-text reverse-border">
         <h3>
@@ -875,7 +883,8 @@
        </div>
       </div>
     </div>
-    <div class="p4-item">
+    <div class="p4-item" data-aos="fade-right"
+    data-aos-duration="3000">
       <img src="image/mockup/device-lorena.jpg" loading="lazy" alt="tablet computador">
       <div class="item-p4-text">
         <h3>
@@ -900,7 +909,8 @@
        </div>
       </div>
     </div>
-    <div class="p4-item">
+    <div class="p4-item" data-aos="fade-left"
+    data-aos-duration="3000">
       <img src="image/ebook2.webp" loading="lazy" alt="livro" class="img-reverse">
       <div class="item-p4-text reverse-border">
         <h3>
@@ -926,7 +936,8 @@
        </div>
       </div>
     </div>
-    <div class="p4-item" >
+    <div class="p4-item" data-aos="fade-right"
+    data-aos-duration="3000">
       <img src="image/ebook1.webp" loading="lazy" alt="livro" class="img-reverse">
       <div class="item-p4-text reverse-border">
         <h3 class="grid-row-change">
@@ -993,7 +1004,8 @@
   <h2>
     LEMBRANDO QUE VOCÊ RECEBE:
   </h2>
-  <div class="bonus-box grid">
+  <div class="bonus-box grid" data-aos="fade-up"
+  data-aos-duration="3000">
 
     <div class="bonus-item">
       <div class="border-back"></div>
@@ -1012,7 +1024,8 @@
   <h3>
     3 BÔNUS EXCLUSIVO
   </h3>
-  <div class="bonus-box grid">
+  <div class="bonus-box grid" data-aos="fade-up"
+  data-aos-duration="3000">
 
     <div class="bonus-item">
       <div class="border-back"></div>
@@ -1032,8 +1045,10 @@
     E-BOOKS
   </h3>
   <div class="bonusBx display">
-    <img src="image/ebook3.webp" loading="lazy" alt="livro">
-    <img src="image/book4.webp" loading="lazy" alt="livro">
+    <img src="image/ebook3.webp" loading="lazy" alt="livro" data-aos="fade-right"
+    data-aos-duration="3000">
+    <img src="image/book4.webp" loading="lazy" alt="livro" data-aos="fade-left"
+    data-aos-duration="3000">
   </div>
 
 </div>
@@ -1281,7 +1296,7 @@ responsive: [
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: false,
+      arrows: true,
       dots: true
     }
   },
@@ -1291,7 +1306,7 @@ responsive: [
    //#endregion   
     slidesToShow: 1,
       slidesToScroll: 1,
-      arrows:false, 
+      arrows:true, 
        dots: true
     }
   }
@@ -1310,6 +1325,12 @@ responsive: [
 <script src="js//beforeAfter/before-after.js"></script>
 <script src="js//beforeAfter/before20.js"></script>
 <script src="js//beforeAfter/before21.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 
 </html>
