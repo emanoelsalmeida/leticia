@@ -641,9 +641,6 @@ footer p a {
   h1, h2 {
     text-align: center;
   }
-  h1, h2, h3 {
-    text-transform: lowercase;
-  }
   .button {
     font-size: 1em;
   }
